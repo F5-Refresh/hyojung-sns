@@ -1,0 +1,18 @@
+{
+  "python.linting.enabled": false,
+  "[python]": {
+    "editor.formatOnSave": true,
+
+  },
+  "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "python.sortImports": true
+  },
+
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+      "--line-length",
+      "119",
+      "--skip-string-normalization"
+  ]
+}
