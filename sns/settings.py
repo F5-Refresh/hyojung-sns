@@ -16,7 +16,8 @@ import os
 from pathlib import Path
 
 import environ
-import pymysql
+
+# import pymysql
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -72,6 +73,9 @@ SIMPLE_JWT = {
 }
 
 REST_USE_JWT = True
+
+# Trailing slash
+APPEND_SLASH = False
 
 # Application definition
 
