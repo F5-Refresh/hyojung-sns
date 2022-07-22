@@ -1,14 +1,17 @@
 from django.db import models
 from user.models import User
 
+# class HashTag(models.Model):
+#     tags = models.CharField(max_length=255)
+
 
 class Post(models.Model):
     writer = models.ForeignKey(to=User, verbose_name='작성자', on_delete=models.CASCADE)
     title = models.CharField('제목', max_length=50)
-    content = models.CharField('내용', max_length=255)
+    content = models.TextField('내용')
     hashtag = models.CharField('해시태그', max_length=255)
     hits = models.PositiveIntegerField('조회수', default=0)
-    likes = models.PositiveBigIntegerField('좋아요', default=0)
+    likes = models.ManyToManyField(User, verbose_name='좋아요', related_name='like_posts', blank=True)
     delete_flag = models.BooleanField('삭제 상태', default=False)  # True: 삭제
     created_at = models.DateTimeField('생성일', auto_now_add=True)
     updated_at = models.DateTimeField('수정일', auto_now=True)
