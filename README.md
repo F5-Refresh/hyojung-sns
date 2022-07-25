@@ -5,6 +5,12 @@
 
 <br>
 
+## 😃 기술 스택
+
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/djangorestframework-DC0032?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/SQLlite-003B57?style=for-the-badge&logo=SQLite&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+<br>
+
 ## 📕 이슈 내용
 
 - **1차 개발**: 게시글 기본 CRUD
