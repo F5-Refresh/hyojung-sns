@@ -1,5 +1,6 @@
 ## 😎 프로젝트 소개
-- 원티드 4주차 개인과제입니다. SNS API를 구현합니다. 게시판 CRUD, 필터링, 좋아요, 리스트 정렬 기능 등을 구현하였습니다.
+- 원티드 4주차 개인과제입니다. SNS API를 구현합니다. 
+- 게시판 CRUD, 필터링, 좋아요, 리스트 정렬 기능 등을 구현하였습니다.
 - **1차 기능 개발, 2차 기능 개발**로 나누어서 구현하였습니다.
 - **프로젝트 기간**: 2022년 7월 20일(수) ~ 2022년 7월 26일(화)
 
@@ -37,9 +38,9 @@
 |로그아웃| POST| users/signout
 |게시물 작성| POST| posts
 |게시물 리스트| GET| posts
-|게시물 수정| PATCH| posts/<int:post_id>
-|게시물 삭제, 취소| PATCH| posts/<int:post_id>/delete
-|게시물 좋아요, 취소| GET| posts/<int:post_id>/likes
+|게시물 수정| PATCH| posts/<int: post_id>
+|게시물 삭제, 취소| PATCH| posts/<int: post_id>/delete
+|게시물 좋아요, 취소| GET| posts/<int: post_id>/likes
 
 <br>
 
